@@ -10,7 +10,7 @@
   <meta name="description" content="">
 
   <!-- Google Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,600,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
 
   <!-- Css -->
   <link rel="stylesheet" href="../../css/bootstrap.min.css" />
@@ -398,24 +398,20 @@
             <div class="col-md-4 project-col">
 
                <a href="#" data-toggle="modal" data-target="#CP1">
-                <div class="course-col wow fadeInUp course-big-data" data-wow-duration="1s" data-wow-delay="0.1s">
-                    <div class="course-title">
-                      <div class="course-title--overlay"></div>
-                      <h3>Big Data Analytics and Machine Learning</h3>                  
-                    </div>
-
-                    <div class="course-features">
-                      <ul>
-                        <li>Discover the insights from Data</li>
-                      </ul>
-                    </div>
-
-                    <div class="course-button">
-                      <a href="courses/big-data/index.php">
-                        <div class="btn btn-lg btn-color">Learn More</div>
-                      </a>
-                    </div>
+                <div class="detail-box course-col pad-top-40">
+                  <div class="detail-title block-quote pad-left-40 pad-right-40">
+                    <div class="">Project 1</div>
                   </div>
+                  <div class="project-title pad-left-40 pad-right-40 pad-top-5">
+                    <div>Real Time Forecasting Using Excel</div>
+                  </div>
+                  <div class="project-desc pad-top-40">
+                    <div class="detail-title pad-left-40 pad-right-40">
+                      <div class="">Topics Covered</div>
+                    </div>
+                    <div class="short-summary pad-left-40 pad-right-40 pad-top-5">Learn how to analyse real time data and build a live forecasting model using Excel.</div>
+                  </div>
+                </div>
                </a>
                 
                 <div class="modal fade" id="CP1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -437,12 +433,21 @@
             <div class="col-md-4 project-col">
 
                 <a href="#" data-toggle="modal" data-target="#CP2">
-                <div class="detail-box">
-                  <div class="detail-title">
-                    <h3 class="text-center">Project 2 & 3 <br>Dive into Cognitive Science</h3>
+                  <div class="detail-box course-col pad-top-40">
+                    <div class="detail-title block-quote pad-left-40 pad-right-40">
+                      <div class="">Project 2 & 3</div>
+                    </div>
+                    <div class="project-title pad-left-40 pad-right-40 pad-top-5">
+                      <div>Dive Into Cognitive Science</div>
+                    </div>
+                    <div class="project-desc pad-top-40">
+                      <div class="detail-title pad-left-40 pad-right-40">
+                        <div class="">Topics Covered</div>
+                      </div>
+                      <div class="short-summary pad-left-40 pad-right-40 pad-top-5"> Implement various machine learning algorithms to address problems related to the field of cognitive science and brain science.</div>
+                    </div>
                   </div>
-                </div>
-               </a>
+                </a>
                 
                  <div class="modal fade" id="CP2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                   <div class="modal-dialog" role="document">
@@ -463,12 +468,21 @@
             <div class="col-md-4 project-col">
 
                 <a href="#" data-toggle="modal" data-target="#CP4">
-                <div class="detail-box">
-                  <div class="detail-title">
-                    <h3 class="text-center">Capstone Project 4<br> Applying NLP Techniques</h3>
+                  <div class="detail-box course-col pad-top-40">
+                    <div class="detail-title block-quote pad-left-40 pad-right-40">
+                      <div class="">Capstone Project 4</div>
+                    </div>
+                    <div class="project-title pad-left-40 pad-right-40 pad-top-5">
+                      <div>Applying NLP Techniques</div>
+                    </div>
+                    <div class="project-desc pad-top-40">
+                      <div class="detail-title pad-left-40 pad-right-40">
+                        <div class="">Topics Covered</div>
+                      </div>
+                      <div class="short-summary pad-left-40 pad-right-40 pad-top-5">Import data which can be a political speech or any dataset and then work on making sense of it in various ways using different NLP techniques.</div>
+                    </div>
                   </div>
-                </div>
-               </a>
+                </a>
                 
                  <div class="modal fade" id="CP4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                   <div class="modal-dialog" role="document">
@@ -489,12 +503,21 @@
             <div class="col-md-4 project-col">
 
                 <a href="#" data-toggle="modal" data-target="#CP5">
-                <div class="detail-box">
-                  <div class="detail-title">
-                    <h3 class="text-center">Project 5<br> Character Recognition using MNIST Dataset</h3>
+                  <div class="detail-box course-col pad-top-40">
+                    <div class="detail-title block-quote pad-left-40 pad-right-40">
+                      <div class="">Project 5</div>
+                    </div>
+                    <div class="project-title pad-left-40 pad-right-40 pad-top-5">
+                      <div>Character Recognition using MNIST Dataset</div>
+                    </div>
+                    <div class="project-desc pad-top-40">
+                      <div class="detail-title pad-left-40 pad-right-40">
+                        <div class="">Topics Covered</div>
+                      </div>
+                      <div class="short-summary pad-left-40 pad-right-40 pad-top-5">Work on the MNIST dataset to develop a ML algorithm which could recognize handwritten digits with very high level of accuracy.</div>
+                    </div>
                   </div>
-                </div>
-               </a>
+                </a>
                 
                  <div class="modal fade" id="CP5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                   <div class="modal-dialog" role="document">

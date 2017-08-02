@@ -74,6 +74,22 @@
   margin-bottom: 0 !important;
 }
 
+.pad-left-40{
+  padding-left: 40px;
+}
+
+.pad-top-40{
+  padding-top: 40px;
+}
+
+.pad-right-40{
+  padding-right: 40px;
+}
+
+.pad-top-5{
+  padding-top: 5px;
+}
+
 ::-moz-selection {
   color: #fff;
   background: #000;
@@ -1614,12 +1630,60 @@ p {
 }
 
 .detail-box {
-  padding: 40px;
+  position: relative;
+  min-height: 400px;
   background-color: #fff;
   border-radius: 3px;
-    -webkit-box-shadow: 2px 2px 15px 3px rgba(0,0,0,0.2);
-    -moz-box-shadow: 2px 2px 15px 3px rgba(0,0,0,0.2);
-    box-shadow: 2px 2px 15px 3px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 12px 15px 20px 0 rgba(46,61,73,.35);
+    -moz-box-shadow: 12px 15px 20px 0 rgba(46,61,73,.35);
+    box-shadow: 12px 15px 20px 0 rgba(46,61,73,.35);
+}
+
+.detail-box:hover{
+  box-shadow: 0 0.3125em 0.5em 0 rgba(46,61,73,.25);
+  transform: translateY(0.15em);
+}
+
+.detail-title{
+  position: relative;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  color: #9a9a9a;
+}
+
+.detail-title.block-quote::before{
+  content: "";
+  position: absolute;
+  left: -0.15em;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.3em;
+  height: 2em;
+  background-color: #212121;
+}
+
+.project-title{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  text-align: left;
+  font-weight: 600;
+  color: #212121;
+  font-size: 1.25em;
+}
+
+.project-desc{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background-color: #f5f6f7;
+}
+
+.short-summary{
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  color: #212121;
 }
 
 .project-col .learn-more {

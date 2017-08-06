@@ -105,10 +105,10 @@
                 <ul class="nav navbar-nav local-scroll text-center">
 
                   <li>
-                    <a href="../../index.php">Home</a>
+                    <a href="../../../index.php">Home</a>
                   </li>
                   <li>
-                      <a href="../../index.php#course">Courses</a>
+                      <a href="../../../index.php#courses">Courses</a>
                   </li>
                   <li>
                       <a href="../../index.php#testimonial">Testimonials</a>

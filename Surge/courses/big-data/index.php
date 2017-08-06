@@ -105,10 +105,10 @@
                 <ul class="nav navbar-nav local-scroll text-center">
 
                   <li>
-                    <a href="../../index.php">Home</a>
+                    <a href="../../../index.php">Home</a>
                   </li>
                   <li>
-                      <a href="../../index.php#course">Courses</a>
+                      <a href="../../../index.php#courses">Courses</a>
                   </li>
                   <li>
                       <a href="../../index.php#testimonial">Testimonials</a>
@@ -539,6 +539,75 @@
             
         </div>
     </section>
+
+    <!-- Why should I join -->
+    <section class="section-wrap">
+      <div class="row heading">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <h2 class="text-center bottom-line">Why should I join?</h2>
+          <p class="subheading">Lorem Ipsum text</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <!-- <section class="section-wrap">
+      <div class="container">
+        <div class="row">
+          <div id="faq-section" class="container-fluid section col-md-10 col-xs-12 scrollspy">
+            <div class="container row">
+              <div class="row heading">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <h2 class="text-center bottom-line">FAQ</h2>
+                </div>
+              </div>
+
+              <ul class="collapsible col-lg-10 col-lg-offset-1 col-xs-12" data-collapsible="accordion">
+                <li class="active">
+                  <div class="collapsible-header">
+                    <span class="cross-box"><span class="rotating-span"></span><span class="horizontal-span"></span> </span>  Do I need to carry any ID proof for the visit?
+                  </div>
+                  <div class="collapsible-body"><span class="">Carry a govt-issued ID proof AND your college ID card.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header ">
+                    <span class="cross-box"><span class="rotating-span"></span><span class="horizontal-span"></span></span> Is photography/videography permitted at the visit?
+                  </div>
+                  <div class="collapsible-body"><span class="">No, unless instructed otherwise.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header ">
+                    <span class="cross-box"><span class="rotating-span"></span><span class="horizontal-span"></span></span> What is the cancellation/refund policy?
+                  </div>
+                  <div class="collapsible-body"><span class="">No refunds on cancellation/no-show at the event.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header ">
+                    <span class="cross-box"><span class="rotating-span"></span><span class="horizontal-span"></span></span> Is there a dress code to be followed?
+                  </div>
+                  <div class="collapsible-body"><span class="">Wear comfortable semi-formals.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header ">
+                    <span class="cross-box"><span class="rotating-span"></span><span class="horizontal-span"></span></span> What materials do I need to carry?
+                  </div>
+                  <div class="collapsible-body"><span class="">You need to carry a Laptop and a Pen Drive. </span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header ">
+                    <span class="cross-box"><span class="rotating-span"></span><span class="horizontal-span"></span></span> What if I miss a Lecture?
+                  </div>
+                  <div class="collapsible-body"><span class="">Extra lectures will be conducted to make up for topics missed. </span></div>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="col m1"></div>
+        </div>
+      </div>
+
+    </section> -->
 
     <!-- Footer -->
     <footer class="footer minimal bg-dark">

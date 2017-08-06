@@ -492,6 +492,17 @@
         });
     });
 
+    $('.collapsible-header').click(function(){
+
+        $(".rotating-span").removeClass('open');
+        $(".rotating-span").removeClass('open');
+        if (!($(this).hasClass("active")))
+            $(".rotating-span", this).toggleClass('open');
+        else
+            $(".rotating-span", this).removeClass('open');
+
+    });
+
 })(jQuery);
 
 

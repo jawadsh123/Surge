@@ -111,7 +111,7 @@
                     <a href="#services">Services</a>
                   </li>
                   <li>
-                    <a href="#courses">Courses</a>
+                    <a href="#course">Courses</a>
                   </li>
                   <li>
                     <a href="#associates">Associates</a>
@@ -198,17 +198,17 @@
         </div>
         <div class="row">
             <a href="Surge/index.php" target="_blank">
-            <div class="col-md-6 col-md-offset-3 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.1s">
+            <div class="col-md-6 col-md-offset-3 col-xs-12 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.1s">
                 <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
+                    <div class="col-xs-6 col-xs-offset-3">
                         <img src="img/surge.png" alt="Surge logo" class="img-responsive ">
                     </div>
-                    <div class="col-xs-12">
-                        <h3 class="text-center">Surge</h3>
-                        <p class="text-center">Surge is the new way of learning, we are revolutionizing the traditional and old-school method of class rooms into more practical and Industrial based knowledge transfer.</p>
-                        <p class="text-center"><strong>Industrial Training | Technology | Workshop | Internship</strong></p>
-                    </div>
                 </div>
+            </div>
+            <div class="col-md-10 col-md-offset-1 col-xs-12">
+                <h3 class="text-center">Surge</h3>
+                <p class="text-center">Surge is the new way of learning, we are revolutionizing the traditional and old-school method of class rooms into more practical and Industrial based knowledge transfer.</p>
+                <p class="text-center"><strong>Industrial Training | Technology | Workshop | Internship</strong></p>
             </div>
             </a>
             
@@ -216,22 +216,68 @@
       </div>
     </section> <!-- end intro -->
 
-    <section class="section-wrap courses" id="courses">
-      <div class="container">
+     <!-- Courses-->
+    <section class="section-wrap" id="course">
+        <div class="container">
+            
+            <div class="row heading">
+              <div class="col-md-6 col-md-offset-3 text-center">
+                <h2 class="text-center bottom-line">Courses</h2>
+                <p class="subheading">Join today to learn greatness</p>
+              </div>
+            </div>
 
-        <div class="row heading">
-          <div class="col-md-8 col-md-offset-2">
-            <h2 class="text-center bottom-line">Courses we Offer</h2>
-            <p class="subheading text-center">We provide top of the class courses that align with current industry trends:</p>
-          </div>
+            <div class="row">
+
+              <a href="Surge/courses/big-data/index.php">
+                <div class="col-md-4 col-md-offset-2 courses">        
+                  <div class="course-col wow fadeInUp course-big-data" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div class="course-title">
+                      <div class="course-title--overlay"></div>
+                      <h3>Big Data Analytics and Machine Learning</h3>                  
+                    </div>
+
+                    <div class="course-features">
+                      <ul>
+                        <li>Discover the insights from Data</li>
+                      </ul>
+                    </div>
+
+                    <div class="course-button">
+                      <a href="Surge/courses/big-data/index.php">
+                        <div class="btn btn-lg btn-color">Learn More</div>
+                      </a>
+                    </div>
+                  </div>
+                </div> <!-- end col -->
+              </a>
+
+              <a href="Surge/courses/android/index.php">
+                <div class="col-md-4 courses">        
+                  <div class="course-col wow fadeInUp course-android" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div class="course-title">
+                      <div class="course-title--overlay"></div>
+                      <h3>Android</h3>                  
+                    </div>
+
+                    <div class="course-features">
+                      <ul>
+                        <li>Learn Java and Start Building Apps</li>
+                      </ul>
+                    </div>
+
+                    <div class="course-button">
+                      <a href="Surge/courses/android/index.php">
+                        <div class="btn btn-lg btn-color">Learn More</div>
+                      </a>
+                    </div>
+                  </div>
+                </div> <!-- end col -->  
+              </a>
+
+            </div>
+            
         </div>
-
-        <div class="row">
-          <a href="./Surge/index.php" class="btn btn-lg btn-color btn-submit courses-btn">View all Courses</a>
-        </div>
-
-
-      </div>
     </section>
     
     <!-- Associates -->
@@ -391,8 +437,27 @@
           <div class="col-sm-4 media-logo">
             <img src="img/media/edtech.png" alt="">
           </div>
-		  <div class="col-sm-4 media-logo">
+	        <div class="col-sm-4 media-logo">
             <img src="img/media/tech-aloo.png" alt="">
+          </div>
+
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/techinasia.png" alt="">
+          </div>
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/mid-day.png" alt="">
+          </div>
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/techcircle.png" alt="">
+          </div>
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/letsventure.png" alt="">
+          </div>
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/vccircle_2.png" alt="">
+          </div>
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/foradian.png" alt="">
           </div>
         </div>
 		

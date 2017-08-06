@@ -3412,6 +3412,69 @@ label {
 }
 
 /*-------------------------------------------------------*/
+/* FAQ Accordions
+/*-------------------------------------------------------*/
+
+.collapsible-body{
+  display: none;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 2rem;
+  padding-left: 40px;
+}
+
+#faq-section .collapsible{
+  font-family: 'Josefin Sans', sans-serif;
+  border: 0px;
+  box-shadow: none;
+  font-size: 1.3rem;
+}
+#faq-section .collapsible-header{
+  font-family: Montserrat, sans-serif;
+  font-size: 1.7rem;
+  border: 0px;
+  box-shadow: none;
+  transition: color .3s;
+  background: transparent;
+  cursor: pointer;
+}
+#faq-section .collapsible-header:hover{
+  border: 0px;
+  box-shadow: none;
+  color: #02b4e2;
+}
+#faq-section .collapsible-body{
+  font-family: Montserrat, sans-serif;
+  font-size: 1.7rem;
+  border: 0px;
+}
+.cross-box{
+  padding-right: 5px;
+  
+}
+.cross-box > span{
+
+  display: inline-block;
+  width:15px;
+  height: 2px;
+  background: black;
+}
+
+.horizontal-span{
+  top: -15px !important;
+  left: 15.25px;
+}
+.rotating-span{
+  position: relative;
+  left: 15.25px;  
+  transform: rotate(90deg); 
+  transition: .25s ease-in-out;
+}
+.open{
+  transform: rotate(0deg);
+}
+
+/*-------------------------------------------------------*/
 /* Footer
 /*-------------------------------------------------------*/
 .footer.minimal {

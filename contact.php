@@ -61,7 +61,7 @@
   
 <?php
 if( $_POST ) {
-  $con = mysql_connect("localhost:3306","notemyqh_basic","password@notemybook"); 
+  $con = mysql_connect("localhost:3306","thesuvjn_basic","password@surge"); 
 
   if (!$con)
   {

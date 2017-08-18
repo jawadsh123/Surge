@@ -108,7 +108,7 @@
                     <a href="../../../index.php">Home</a>
                   </li>
                   <li>
-                      <a href="../../../index.php#courses">Courses</a>
+                      <a href="../../../index.php#course">Courses</a>
                   </li>
                   <li>
                       <a href="../../index.php#testimonial">Testimonials</a>
@@ -373,6 +373,7 @@
                   <input name="college" id="college" type="text" placeholder="College*" required>
                   <input name="branch" id="branch" type="text" placeholder="Branch*" required>
                   <input name="year" id="year" type="text" placeholder="Year of Study*" required> 
+                  <input name="reference" id="reference" type="text" placeholder="Reference"> 
                   <input type="submit" class="btn btn-lg btn-color btn-submit" value="Register">
           
                 </form>

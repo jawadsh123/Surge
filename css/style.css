@@ -1568,6 +1568,11 @@ p {
   color: #a6a6a6;
 }
 
+.college-name{
+  font-weight: 300;
+  color: #fafafa;
+}
+
 .testimonial-section .customNavigation > a,
 .from-blog .customNavigation > a {
   background-color: transparent;

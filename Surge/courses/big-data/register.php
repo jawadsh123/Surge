@@ -126,7 +126,7 @@
 
 if( $_POST ) {
 
-  $con = mysql_connect("localhost:3306","thesuvjn_basic","password@surge"); 
+  $con = mysqli_connect("localhost:3306","thesuvjn_basic","password@surge", "thesuvjn_surge"); 
 
 
 
@@ -134,13 +134,13 @@ if( $_POST ) {
 
   {
 
-    die('Could not connect: ' . mysql_error());
+    die('Could not connect: ' . mysqli_error($con));
 
   }
 
 
 
-  mysql_select_db("notemyqh_website", $con);
+  // mysqli_select_db($con, "thesuvjn_surge");
 
 
 
@@ -162,19 +162,19 @@ if( $_POST ) {
 
 
 
-  $name = mysql_real_escape_string($name);
+  $name = mysqli_real_escape_string($con, $name);
 
-  $mail = mysql_real_escape_string($mail);
+  $mail = mysqli_real_escape_string($con, $mail);
 
-  $contact = mysql_real_escape_string($contact);
+  $contact = mysqli_real_escape_string($con, $contact);
 
-  $college = mysql_real_escape_string($college);
+  $college = mysqli_real_escape_string($con, $college);
 
-  $branch = mysql_real_escape_string($branch);
+  $branch = mysqli_real_escape_string($con, $branch);
 
-  $year = mysql_real_escape_string($year);
+  $year = mysqli_real_escape_string($con, $year);
 
-  $reference = mysql_real_escape_string($reference);
+  $reference = mysqli_real_escape_string($con, $reference);
 
 
 
@@ -182,7 +182,7 @@ if( $_POST ) {
 
 
 
-  if(mysql_query($query)){
+  if(mysqli_query($con, $query)){
 
 
 
@@ -204,7 +204,7 @@ if( $_POST ) {
 
 
 
-  mysql_close($con);
+  mysqli_close($con);
 
 }
 

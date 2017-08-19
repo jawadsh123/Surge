@@ -1680,6 +1680,10 @@ p {
   background-color: #f5f6f7;
 }
 
+.modal-dialog{
+  top: 60px;
+}
+
 .short-summary{
   text-align: left;
   font-family: "Montserrat", sans-serif;

@@ -1,11 +1,11 @@
 function showDescription(desc){
 	var coll = document.getElementById('desc-content');
 
-	document.getElementById('brand-ambassador').className += "collection-item weight-400";
-	document.getElementById('digital-marketing').className += "collection-item weight-400";
-	document.getElementById('corporate').className += "collection-item weight-400";
-	document.getElementById('college').className += "collection-item weight-400";
-	document.getElementById('designer').className += "collection-item weight-400";
+	document.getElementById('brand-ambassador').classList.remove("active");
+	document.getElementById('digital-marketing').classList.remove("active");
+	document.getElementById('corporate').classList.remove("active");
+	document.getElementById('college').classList.remove("active");
+	document.getElementById('designer').classList.remove("active");
 
 	var item = document.getElementById(desc).className += " active";
 

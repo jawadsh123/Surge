@@ -896,7 +896,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
           <div class="col-md-4">
             <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
               <h2>
-                <a href="#home" class="color-white footer-link-big">Make a Career with Us</a>
+                <a href="./career.html" class="color-white footer-link-big">Make a Career with Us</a>
               </h2>
             </div>            
           </div>
@@ -908,7 +908,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                 <a href="#home" class="color-white">Surge</a>
               </h2>
               <h2>
-                <a href="#home" class="color-white footer-link-small">Make a Career with Us</a>
+                <a href="./career.html" class="color-white footer-link-small">Make a Career with Us</a>
               </h2>
               <h2>
                 <a href="#home" class="color-white footer-link-small">Blogs by Surge</a>

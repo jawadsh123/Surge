@@ -407,14 +407,14 @@
     </section>
 
     <!-- Why should I join -->
-    <section class="section-wrap bg-blue">
+    <!-- <section class="section-wrap bg-blue">
       <div class="row heading">
         <div class="col-md-6 col-md-offset-3 text-center">
           <h2 class="text-center bottom-line color-white">Why should I join?</h2>
           <p class="subheading color-white">Lorem Ipsum text</p>
         </div>
       </div>
-    </section>
+    </section> -->
     
     <!-- Footer -->
     <footer class="footer minimal bg-dark">
@@ -425,7 +425,7 @@
             
             <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
               <h2>
-                <a href="#home" class="color-white">notemybook</a>
+                <a href="#home" class="color-white">Surge</a>
               </h2>
             </div>
 
@@ -436,7 +436,7 @@
             </div> <!-- end socials -->
 
             <span class="copyright text-center">
-              Notemybook Services Pvt. Ltd.
+              Surge 2017
             </span>
 
           </div>

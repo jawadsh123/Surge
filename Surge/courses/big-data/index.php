@@ -136,33 +136,29 @@
         <div class="hero-holder">
           <div class="hero-message hero-left">
             <div class="row">
-                <div class="col-md-6">
-                    <h1>Big Data and Machine Learning</h1>
+                <div class="col-md-12">
+                    <h1 class="center-align main-title">Data and Machine Learning</h1>
                     <br>
-                    <h2 class="color-white">Let's Build a smart Future</h2>
-                    <div class="partners hidden-xs">
-                        <h2 class="">Partners:</h2>
-                        <img src="../../img/fablab.png" alt="Fab Lab">
-                        <img src="../../img/riidl.png" alt="Riidl">
-                    </div>
-                    <div class="buttons-holder mt-30">
-                      <a href="#details" class="btn btn-lg btn-color">Apply Now</a>
-                    </div>
+                    <h2 class="color-white center-align">Let's Build a smart Future</h2>
+                    
                 </div>
-                <div class="col-md-6 hidden-sm hidden-xs hero-text">
-                    <p>Come join us in learning and experiencing how smart machines are made, the algorithms behind digital personal assistants, the technology behind automated cars and much more. Build Live Projects as you learn, and upgrade your profile with internship opportunities. Topics include:</p>
-                    <ul>
-                        <li>Analytics in Excel</li>
-                        <li>R Programming</li>
-                        <li>R Shiny</li>
-                        <li>Statistics</li>
-                        <li>Python</li>
-                        <li>Machine Learning</li>
-                        <li>Cognitive Science</li>
-                        <li>Artificial Intelligence</li>
-                        <li>Deep Learning</li>
-                        <li>And much more!</li>
-                    </ul>
+                <div class="col-md-12 hidden-sm hidden-xs hero-text">
+                    <p class="center-align">Have you ever wondered how Facebook gives you an option to tag your friend? or how google automatically detects spam mails and reduces your burden? or how does the google self driving car works? NetFlix and Youtube recommends the movie and video you’ll  like We'll help you figure out all these answers and find solutions to many such complex problems right from the field of Stock Market to Brain Science.
+This course is about building machine intelligent software with architectures built on some of the most complex machine learning algorithms. You will also learn to build complete end to end web application running on these deep learning algorithms which can be displayed or put to practical use.
+At the end of the workshop you would have completed 4 big projects in Data and Analytics and will have a chance to grab research opportunities / internships in some of the big corporate or Research Institutes in India and abroad.
+If you want to sit for your placements, or go for your MS, this is the must skill that should have on your CV/profile.
+This is the most in demand career choice with salary ranging upto Rs. 22 Lac.
+</p>
+                </div>
+                <div class="col-md-12">
+                  <div class="partners hidden-xs col-md-6">
+                      <h2 class="">Partners:</h2>
+                      <img src="../../img/fablab.png" alt="Fab Lab">
+                      <img src="../../img/riidl.png" alt="Riidl">
+                  </div>
+                  <div class="buttons-holder mt-30 col-md-6">
+                    <a href="#details" class="btn btn-lg btn-color apply-btn">Apply Now</a>
+                  </div>
                 </div>
             </div>
             <div class="local-scroll">
@@ -323,40 +319,52 @@
                         
                         <div class="tab-pane fade" id="tab-four">
                           <p>
-                            <strong>Q. Do I need to carry any ID proof for the visit?</strong>
+                            <strong>Q. I don’t know anything about computer programming can I join this course?</strong>
                           </p>
                           <p>
-                            A. Carry a govt-issued ID proof AND your college ID card.
+                            A. Yes.
                           </p>
                           <p>
-                            <strong>Q. Is photography/videography permitted at the visit?</strong>
+                            <strong>Q. Prerequisites.</strong>
                           </p>
                           <p>
-                            A. No, unless instructed otherwise.
+                            A. Basic understanding of Calculus, Programming (Recommended but not compulsory) One laptop with good configuration.
                           </p>
                           <p>
-                            <strong>Q. What is the cancellation/refund policy?</strong>
+                            <strong>Q. Where the lectures will be held and what are the timings?</strong>
                           </p>
                           <p>
-                            A. No refunds on cancellation/no-show at the event.
+                            A. As it is a Classroom program, Lectures are conducted at RIIDL KJ Somaiya Vidyavihar and only on Weekends (Saturday-Sunday) for 4-5 hours as per student's convenience.
                           </p>
                           <p>
-                            <strong>Q. Is there a dress code to be followed?</strong>
+                            <strong>Q. Can you arrange the same course in my college?</strong>
                           </p>
                           <p>
-                            A. Wear comfortable semi-formals.
+                            A. Yes, If your college collaborate with us and provide us minimum 40 participants / batch. 
                           </p>
                           <p>
-                            <strong>Q. What materials do I need to carry?</strong>
+                            <strong>Q. Can You readjust the lecture during my term test and Exams?</strong>
                           </p>
                           <p>
-                            A. You need to carry a Laptop and a Pen Drive. 
+                            A. Yes, In that case we postpone lectures to next date.
                           </p>
                           <p>
-                            <strong>Q. What if I miss a Lecture?</strong>
+                            <strong>Q. I don’t have laptops, can you provide us the laptop during lectures.</strong>
                           </p>
                           <p>
-                            A. Extra lectures will be conducted to make up for topics missed. 
+                            A. We recommend you to arrange for one laptop yourself otherwise we’ll ask other students to share with you.
+                          </p>
+                          <p>
+                            <strong>Q. Can I pay my fees in Installments.</strong>
+                          </p>
+                          <p>
+                            A. Yes
+                          </p>
+                          <p>
+                            <strong>Q. Do I have to Install any extra softwares myself?</strong>
+                          </p>
+                          <p>
+                            A. No, We will provide you the software and installation instruction in the class.
                           </p>
                         </div>
 
@@ -542,14 +550,14 @@
     </section>
 
     <!-- Why should I join -->
-    <section class="section-wrap">
+    <!-- <section class="section-wrap">
       <div class="row heading">
         <div class="col-md-6 col-md-offset-3 text-center">
           <h2 class="text-center bottom-line">Why should I join?</h2>
           <p class="subheading">Lorem Ipsum text</p>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- FAQ -->
     <!-- <section class="section-wrap">
@@ -619,7 +627,7 @@
             
             <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
               <h2>
-                <a href="#home" class="color-white">notemybook</a>
+                <a href="#home" class="color-white">Surge</a>
               </h2>
             </div>
 
@@ -630,7 +638,7 @@
             </div> <!-- end socials -->
 
             <span class="copyright text-center">
-              Notemybook Services Pvt. Ltd.
+              Surge 2017
             </span>
 
           </div>

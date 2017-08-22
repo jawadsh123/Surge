@@ -111,7 +111,7 @@
                     <a href="#services">Services</a>
                   </li>
                   <li>
-                    <a href="#courses">Courses</a>
+                    <a href="#course">Courses</a>
                   </li>
                   <li>
                     <a href="#associates">Associates</a>
@@ -197,18 +197,18 @@
           
         </div>
         <div class="row">
-            <a href="Surge/index.php" target="_blank">
-            <div class="col-md-6 col-md-offset-3 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.1s">
+            <a href="#services">
+            <div class="col-md-6 col-md-offset-3 col-xs-12 wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.1s">
                 <div class="row">
-                    <div class="col-xs-8 col-xs-offset-2">
+                    <div class="col-xs-6 col-xs-offset-3">
                         <img src="img/surge.png" alt="Surge logo" class="img-responsive ">
                     </div>
-                    <div class="col-xs-12">
-                        <h3 class="text-center">Surge</h3>
-                        <p class="text-center">Surge is the new way of learning, we are revolutionizing the traditional and old-school method of class rooms into more practical and Industrial based knowledge transfer.</p>
-                        <p class="text-center"><strong>Industrial Training | Technology | Workshop | Internship</strong></p>
-                    </div>
                 </div>
+            </div>
+            <div class="col-md-10 col-md-offset-1 col-xs-12">
+                <h3 class="text-center">Surge</h3>
+                <p class="text-center">Surge is the new way of learning, we are revolutionizing the traditional and old-school method of class rooms into more practical and Industrial based knowledge transfer.</p>
+                <p class="text-center"><strong>Industrial Training | Technology | Workshop | Internship</strong></p>
             </div>
             </a>
             
@@ -216,22 +216,68 @@
       </div>
     </section> <!-- end intro -->
 
-    <section class="section-wrap courses" id="courses">
-      <div class="container">
+     <!-- Courses-->
+    <section class="section-wrap" id="course">
+        <div class="container">
+            
+            <div class="row heading">
+              <div class="col-md-6 col-md-offset-3 text-center">
+                <h2 class="text-center bottom-line">Courses</h2>
+                <p class="subheading">Join today to learn greatness</p>
+              </div>
+            </div>
 
-        <div class="row heading">
-          <div class="col-md-8 col-md-offset-2">
-            <h2 class="text-center bottom-line">Courses we Offer</h2>
-            <p class="subheading text-center">We provide top of the class courses that align with current industry trends:</p>
-          </div>
+            <div class="row">
+
+              <a href="Surge/courses/big-data/index.php">
+                <div class="col-md-4 col-md-offset-2 courses">        
+                  <div class="course-col wow fadeInUp course-big-data" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div class="course-title">
+                      <div class="course-title--overlay"></div>
+                      <h3>Big Data Analytics and Machine Learning</h3>                  
+                    </div>
+
+                    <div class="course-features">
+                      <ul>
+                        <li>Discover the insights from Data</li>
+                      </ul>
+                    </div>
+
+                    <div class="course-button">
+                      <a href="Surge/courses/big-data/index.php">
+                        <div class="btn btn-lg btn-color">Learn More</div>
+                      </a>
+                    </div>
+                  </div>
+                </div> <!-- end col -->
+              </a>
+
+              <a href="Surge/courses/android/index.php">
+                <div class="col-md-4 courses">        
+                  <div class="course-col wow fadeInUp course-android" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div class="course-title">
+                      <div class="course-title--overlay"></div>
+                      <h3>Android</h3>                  
+                    </div>
+
+                    <div class="course-features">
+                      <ul>
+                        <li>Learn Java and Start Building Apps</li>
+                      </ul>
+                    </div>
+
+                    <div class="course-button">
+                      <a href="Surge/courses/android/index.php">
+                        <div class="btn btn-lg btn-color">Learn More</div>
+                      </a>
+                    </div>
+                  </div>
+                </div> <!-- end col -->  
+              </a>
+
+            </div>
+            
         </div>
-
-        <div class="row">
-          <a href="./Surge/index.php" class="btn btn-lg btn-color btn-submit courses-btn">View all Courses</a>
-        </div>
-
-
-      </div>
     </section>
     
     <!-- Associates -->
@@ -312,8 +358,9 @@
             <div class="row">
               
               <div class="col-md-8 promo-description">
-                <h3 class="color-white">Laveen Mamtani</h3>
-                <p class="mb-30">Industrial visit was very good.. we learn some very exciting stuff and enjoyed a lot with friends. It was exciting location. Arrange these kind of IV’s for us and also extend the days of IV so that we can learn more... thanks for arranging the IV... I am thankful to u for this IV... It was nice hangout with our friends and nice experience with notemybook...</p> 
+                <h3 class="color-white"> Purvak Lapsiya:</h3>
+                <h5 class="college-name">KJ Somaiya College of Engineering</h5>
+                <p class="mb-30">Surge is a complete package for engineering student like me, right from attending those interactive session to working on four big live projects and getting internship into exciting companies. It’s a complete paradigm shift for any students in India.</p> 
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -333,8 +380,9 @@
             <div class="row">
               
               <div class="col-md-8 promo-description">
-                <h3 class="color-white">Rahul Verma</h3>
-                <p class="mb-30">&quot;Trip was really awesome.. food hotel train all booking were comfortable.. thanks a lot for making this trip learning with fun and I really enjoyed it.. I would like to join next Industrial visit as well. thanks a lot...&quot;</p> 
+                <h3 class="color-white">Shreyans Doshi:</h3>
+                <h5 class="college-name">Winner of Smart India Hackathon, KJ Somaiya College of Engineering</h5>
+                <p class="mb-30">It’s like sometimes you know everything but you need a push into a right direction to address all the right problems that get towards when you go into the future, this course was something like that to me, it changed the way I looked at the problems when they approach me and how I could use programming to solve those problem.</p> 
                 <div class="customNavigation mt-40">
                   <a class="prev"><i class="icon arrow_left"></i></a>
                   <a class="next"><i class="icon arrow_right"></i></a>
@@ -343,6 +391,293 @@
 
               <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
                 <img src="img/Person-3.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Krina Joshi:</h3>
+                <h5 class="college-name">KJSCE</h5>
+                <p class="mb-30">This Course was completely beneficial for me, 5 out of 5.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-2.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">FAIZANSHAH RAOUF ANSARI:</h3>
+                <h5 class="college-name">VESIT/CMPN First year</h5>
+                <p class="mb-30">It was an Wonderful exploration into Data Science, would definitely suggest this course to my friends and juniors.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-1.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">SONIYA SHETTIGAR:</h3>
+                <h5 class="college-name">VESIT/ INST BE</h5>
+                <p class="mb-30">Great course! Great learning overall awesome expirience, keep up team Surge!</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-3.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Vedant Mistry:</h3>
+                <h5 class="college-name">VESIT/COMP Second year</h5>
+                <p class="mb-30">Properly scheduled classes well planned lectures. </p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-2.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Snehal Bhagat:</h3>
+                <h5 class="college-name">VESIT</h5>
+                <p class="mb-30">I'm sure all the things I learnt through this course are going to help me a lot in the future. Thank you team Surge.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-1.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Aneesh Gunda:</h3>
+                <h5 class="college-name">VESIT</h5>
+                <p class="mb-30">Being from a completely different background of academia, I came looking for some answers for my future education. I'd certainly say that I got those answers and I'd like to pursue machine learning as my subject for my masters degree and for that I'd like to thank
+                Surge for giving this opportunity and of course Mr. Vikramank Singh r for this wonderful opportunity.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-3.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Padmaja Kolle:</h3>
+                <h5 class="college-name">VESIT</h5>
+                <p class="mb-30">I thought that the focus of teaching was on explaining the code, which was helpful; Overall, the workshop was pretty helpful.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-2.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Krutika Hari Pasalkar:</h3>
+                <h5 class="college-name">VESIT</h5>
+                <p class="mb-30">Through these workshop got an opportunity to learn and understand R programming and python in deep and its use in statistics and analysis.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-1.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Sakshi Subedi:</h3>
+                <h5 class="college-name">VESIT/CMPN Second year</h5>
+                <p class="mb-30">It was satisfactory, love the course.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-3.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Vinit Todai:</h3>
+                <h5 class="college-name">KJSCE/COMPS</h5>
+                <p class="mb-30">It was one of the best course I have ever attended.I got a wide exposure to the world of Big Data Analytics,Artificial Intelligence and Machine Learning.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-2.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Swapnil Nivendkar:</h3>
+                <h5 class="college-name">VJTI</h5>
+                <p class="mb-30">I think coding part was more focus, teaching was really good . Overall I like the initiative, good teaching by Vikramank sir and good dedication by Team Surge.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-1.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Suneel:</h3>
+                <h5 class="college-name">TSEC</h5>
+                <p class="mb-30">The main highlight of the course was the intriguing projects and individual attention that it had to offer. It definitely changed my perspective on programming and Data analytics. Me and my team were very lucky to have Vikramank sir to guide us and help us with the projects and lastly, I am glade team of surge made this course happen.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-3.png" alt="Student Image">        
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-8 promo-description">
+                <h3 class="color-white">Aishwarya:</h3>
+                <h5 class="college-name">TSEC</h5>
+                <p class="mb-30">The Data analytics and Machine learning course taught by Vikramank was very well conducted. Practical learning combined with the individual attention ensured a good understanding of the subject. Working on different projects throughout the course that helped in understanding concept of applying them practically. Altogether it was fun way to learn new concepts that we wouldn't have been able to do with our college coursework.</p> 
+                <div class="customNavigation mt-40">
+                  <a class="prev"><i class="icon arrow_left"></i></a>
+                  <a class="next"><i class="icon arrow_right"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.1s">
+                <img src="img/Person-2.png" alt="Student Image">        
               </div>
 
             </div>
@@ -391,8 +726,27 @@
           <div class="col-sm-4 media-logo">
             <img src="img/media/edtech.png" alt="">
           </div>
-		  <div class="col-sm-4 media-logo">
+	        <div class="col-sm-4 media-logo">
             <img src="img/media/tech-aloo.png" alt="">
+          </div>
+
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/techinasia.png" alt="">
+          </div>
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/mid-day.png" alt="">
+          </div>
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/techcircle.png" alt="">
+          </div>
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/letsventure.png" alt="">
+          </div>
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/vccircle_2.png" alt="">
+          </div>
+          <div class="col-sm-4 media-logo">
+            <img src="img/media/foradian.png" alt="">
           </div>
         </div>
 		

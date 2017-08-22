@@ -61,35 +61,35 @@
   
 <?php
 if( $_POST ) {
-  $con = mysql_connect("localhost:3306","notemyqh_basic","password@notemybook"); 
+  $con = mysqli_connect("localhost:3306","thesuvjn_basic","password@surge", "thesuvjn_surge"); 
 
   if (!$con)
   {
-    die('Could not connect: ' . mysql_error());
+    die('Could not connect: ' . mysqli_error($con));
   }
 
-  mysql_select_db("notemyqh_website", $con);
+  // mysqli_select_db($con, "thesuvjn_surge");
 
   $name = $_POST['name'];
   $mail = $_POST['mail'];
   $subject = $_POST['subject'];
   $comment = $_POST['comment'];
 
-  $name = mysql_real_escape_string($name);
-  $mail = mysql_real_escape_string($mail);
-  $subject = mysql_real_escape_string($subject);
-  $comment = mysql_real_escape_string($comment);
+  $name = mysqli_real_escape_string($con, $name);
+  $mail = mysqli_real_escape_string($con, $mail);
+  $subject = mysqli_real_escape_string($con, $subject);
+  $comment = mysqli_real_escape_string($con, $comment);
 
   $query = "INSERT INTO `Contact`(`Name`, `Email`, `Subject`, `Message`) VALUES ('$name','$mail','$subject','$comment')";
 
-  if(mysql_query($query)){
+  if(mysqli_query($con, $query)){
 
   echo "<h2>Query submitted sucessfully</h2>";
   }else{
   echo "error";
   }
 
-  mysql_close($con);
+  mysqli_close($con);
 }
 ?>
 

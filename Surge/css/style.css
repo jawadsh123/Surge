@@ -220,6 +220,10 @@ p {
   margin: 15px auto 15px;
 }
 
+.center-align{
+  text-align: center;
+}
+
 /*-------------------------------------------------------*/
 /* Preloader
 /*-------------------------------------------------------*/
@@ -2546,9 +2550,13 @@ input.searchbox:focus {
   margin: 5px;
 }
 
+.buttons-holder .apply-btn{
+  position: absolute;
+  right: 0;
+}
+
 .partners h2{
 	color: #fff;
-    margin-top: 100px;
 }
 
 .partners img {
@@ -3529,4 +3537,10 @@ input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
+}
+
+@media (max-width: 1000px) {
+  .buttons-holder .apply-btn{
+    position: static;
+  }
 }

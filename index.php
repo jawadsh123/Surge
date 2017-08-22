@@ -108,19 +108,19 @@
                     <a href="#home">Home</a>
                   </li>
                   <li>
-                    <a href="#services">Services</a>
-                  </li>
-                  <li>
                     <a href="#course">Courses</a>
                   </li>
                   <li>
                     <a href="#associates">Associates</a>
                   </li>
                   <li>
-                    <a href="#testimonial">Testimonials</a>
+                    <a href="#colleges">Colleges</a>
                   </li>
                   <li>
-                      <a href="#blog">Blog</a>
+                    <a href="#connect">Connect</a>
+                  </li>
+                  <li>
+                    <a href="#testimonial">Testimonials</a>
                   </li>                         
                   <li>
                     <a href="#contact">Contact</a>
@@ -207,8 +207,11 @@
             </div>
             <div class="col-md-10 col-md-offset-1 col-xs-12">
                 <h3 class="text-center">Surge</h3>
-                <p class="text-center">Surge is the new way of learning, we are revolutionizing the traditional and old-school method of class rooms into more practical and Industrial based knowledge transfer.</p>
-                <p class="text-center"><strong>Industrial Training | Technology | Workshop | Internship</strong></p>
+                <p class="text-center">“With good education anything is possible and we love to innovate things ”
+We believe world need innovators more than anything else and at Surge, our mission is to empower every students by providing them right knowledge, training them with latest cutting edge technology  and help them to innovate or work with the existing tech innovators / organisation<br/>
+Surge is the new way of learning, we are revolutionizing the traditional and old-school method of classrooms into more practical and Industrial based knowledge transfer.
+                </p>
+                <p class="text-center"><strong>Industrial Training | Technology | Internship | Recruitment</strong></p>
             </div>
             </a>
             
@@ -309,7 +312,7 @@
       </div>      
     </section> <!-- end clients -->
 
-    <section class="section-wrap clients " id="associates">
+    <section class="section-wrap clients " id="colleges">
       <div class="container"> 
 
         <div class="row heading">
@@ -319,21 +322,29 @@
           </div>
         </div>
 
+        <div class="row college-row">
+          <div class="col-sm-3 associate-logo associate-college-logo">
+            <img src="img/college/dbit.png" alt="Facebook logo">
+          </div>
+          <div class="col-sm-3 associate-logo associate-college-logo">
+            <img src="img/college/kkjsce.png" alt="riidl logo">
+          </div>
+          <div class="col-sm-3 associate-logo associate-college-logo">
+            <img src="img/college/kc.png" alt="FabLab logo">
+          </div>
+          <div class="col-sm-3 associate-logo associate-college-logo">
+            <img src="img/college/vjti.jpg" alt="riidl logo">
+          </div>
+        </div>
         <div class="row">
-          <div class="col-sm-4 associate-logo">
-            <img src="img/media/hindustantimes.png" alt="Facebook logo">
+          <div class="col-sm-3 col-sm-offset-1 associate-logo associate-college-logo">
+            <img src="img/college/pvpcoe.jpg" alt="riidl logo">
           </div>
-          <div class="col-sm-4 associate-logo">
-            <img src="img/media/edtech.png" alt="Microsoft logo">
+          <div class="col-sm-4 associate-logo associate-college-logo">
+            <img src="img/college/vesit.png" alt="riidl logo">
           </div>
-          <div class="col-sm-4 associate-logo">
-            <img src="img/media/iimi.png" alt="FabLab logo">
-          </div>
-          <div class="col-sm-4 col-sm-offset-2 associate-logo">
-            <img src="img/media/bloomberg.png" alt="riidl logo">
-          </div>
-          <div class="col-sm-4 associate-logo">
-            <img src="img/media/tech-aloo.png" alt="riidl logo">
+          <div class="col-sm-3 associate-logo associate-college-logo">
+            <img src="img/college/fta.png" alt="Microsoft logo">
           </div>
         </div>
 
@@ -860,15 +871,15 @@
 
               <div class="row contact-row">
                 <div class="col-md-6 contact-name">
-                  <input name="name" id="name" type="text" placeholder="Name*">
+                  <input name="name" id="name" type="text" placeholder="Name*" required>
                 </div>
                 <div class="col-md-6 contact-email">
-                  <input name="mail" id="mail" type="email" placeholder="E-mail*">
+                  <input name="mail" id="mail" type="email" placeholder="E-mail*" required>
                 </div>
               </div>
 
-              <input name="subject" id="subject" type="text" placeholder="Subject"> 
-              <textarea name="comment" id="comment" placeholder="Message"></textarea>
+              <input name="subject" id="subject" type="text" placeholder="Subject" required> 
+              <textarea name="comment" id="comment" placeholder="Message" required></textarea>
               <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send Message">
             </form>
           </div> <!-- end col -->
@@ -882,11 +893,25 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-md-4 col-md-offset-4">
+          <div class="col-md-4">
+            <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
+              <h2>
+                <a href="#home" class="color-white footer-link-big">Make a Career with Us</a>
+              </h2>
+            </div>            
+          </div>
+
+          <div class="col-md-4 ">
             
             <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
               <h2>
                 <a href="#home" class="color-white">Surge</a>
+              </h2>
+              <h2>
+                <a href="#home" class="color-white footer-link-small">Make a Career with Us</a>
+              </h2>
+              <h2>
+                <a href="#home" class="color-white footer-link-small">Blogs by Surge</a>
               </h2>
             </div>
 
@@ -900,6 +925,14 @@
               &copy; Surge 2017
             </span>
 
+          </div>
+
+          <div class="col-md-4">
+            <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
+              <h2>
+                <a href="#home" class="color-white footer-link-big">Blogs by Surge</a>
+              </h2>
+            </div>            
           </div>
 
         </div>

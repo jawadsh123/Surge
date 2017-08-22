@@ -1812,6 +1812,12 @@ p {
 .associate-logo {
   text-align: center;
 }
+
+.associate-college-logo img{
+  max-height: 250px;
+  height: 40vh;
+  filter: grayscale(1);
+}
 /* Contact
 -------------------------------------------------------*/
 .contact-row {
@@ -3426,4 +3432,32 @@ label {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.footer-link-big{
+  text-transform: none;
+  font-size: 0.7em;
+}
+
+.footer-link-small{
+  text-transform: none;
+  font-size: 0.7em;
+}
+
+@media (min-width: 1000px) {
+  .footer-link-big{
+    display: block;
+  }
+  .footer-link-small{
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer-link-big{
+    display: none;
+  }
+  .footer-link-small{
+    display: block;
+  }
 }

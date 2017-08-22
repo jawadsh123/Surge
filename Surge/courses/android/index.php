@@ -407,14 +407,14 @@
     </section>
 
     <!-- Why should I join -->
-    <section class="section-wrap bg-blue">
+    <!-- <section class="section-wrap bg-blue">
       <div class="row heading">
         <div class="col-md-6 col-md-offset-3 text-center">
           <h2 class="text-center bottom-line color-white">Why should I join?</h2>
           <p class="subheading color-white">Lorem Ipsum text</p>
         </div>
       </div>
-    </section>
+    </section> -->
     
     <!-- Footer -->
     <footer class="footer minimal bg-dark">

@@ -425,7 +425,7 @@
             
             <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
               <h2>
-                <a href="#home" class="color-white">notemybook</a>
+                <a href="#home" class="color-white">Surge</a>
               </h2>
             </div>
 
@@ -436,7 +436,7 @@
             </div> <!-- end socials -->
 
             <span class="copyright text-center">
-              Notemybook Services Pvt. Ltd.
+              Surge 2017
             </span>
 
           </div>

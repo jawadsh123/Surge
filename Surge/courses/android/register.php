@@ -126,7 +126,7 @@
 
 if( $_POST ) {
 
-  $con = mysqli_connect("localhost:3306","thesuvjn_basic","password@surge", "thesuvjn_surge"); 
+  $con = mysqli_connect("localhost","thesuvjn_webuser","Webuser123", "thesuvjn_surge");
 
 
 
@@ -185,8 +185,62 @@ if( $_POST ) {
 
 
 
-    echo "<h2>Thank you for Registering<br/>Our associates will soon reach you</h2>";
+    $course_name = "Android Course";
+    $date = "12/2/17";
 
+    
+    $message = <<<EOT
+    <div dir="ltr">
+    <img width="0" height="0" class="m_-6749714641668268229mailtrack-img" alt="" style="display:flex" src="https://ci6.googleusercontent.com/proxy/QI_eBDAwcmZ7hqHajy5Y5RxEXs7RXGYp88pbQJpfkDi7Kmdb8LqU0wCoRoX6iJSG3fm3alzCCp2Q42bKfzNWlfrzOSMMi7iLa-h8kKLH10BV0SIUMwxhARnM-3ti2qc307i2ahQkM4yD5qU=s0-d-e1-ft#https://mailtrack.io/trace/mail/1056186ea95ef7420deefa209f0fc2bca88f9379.png?u=236156">
+    <div style="text-align:center"><img src="https://ci4.googleusercontent.com/proxy/foX83-zRLBGFRJFOEHt6EtHdUsd-FzBLL84PPJPQuUzkDihhSSFVf3fFJy1lD-RsfmoZ-5lR=s0-d-e1-ft#http://thesurge.in/img/surge.png" alt="Surge logo" class="m_-6749714641668268229gmail-img-responsive" style="margin-right:0px" width="160" height="160"></div>
+    <div style="text-align:center">
+        <br>
+    </div>
+    <div style="text-align:left">Hello $name,&nbsp;</div>
+    <div style="text-align:left">
+        <br>
+    </div>
+    <div style="text-align:left">Thank you for registering for the $course_name. Our Associates will reach you within 48 hours for further registration process and payment details, If you don't receive any call please feel free to reach us at <b><a href="tel:+918446108589" value="+918446108589" target="_blank">+91-8446108589</a>.</b>&nbsp;</div>
+    <div style="text-align:left">
+        <br>
+    </div>
+    <div style="text-align:left">The course will start on $date every weekends for 4-5 hours, lectures will be held at <b><a href="https://goo.gl/maps/6choJpp97Mk" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://goo.gl/maps/6choJpp97Mk&amp;source=gmail&amp;ust=1503580171751000&amp;usg=AFQjCNHhM7gKsMbkhtIJYb5cHwtScZYs-Q">RIIDL</a></b></div>
+    <div>
+        <br>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div>Thank you and see you in the lectures.</div>
+    <div>
+        <br>
+    </div>
+    <div>
+        <br>
+    </div>
+    <div>--</div>
+    <div><b>Team</b></div>
+    <div>
+        <div><i><b><font color="#444444">Surge, One Bit Technology LLP.</font></b></i></div>
+        <div>
+            <font color="#a64d79"><a href="mailto:contact@thesurge.in" target="_blank">contact@thesurge.in</a></font>
+        </div>
+        <div>
+            <font color="#a64d79"><a href="tel:+918446108589" value="+918446108589" target="_blank">+91 8446108589</a></font>
+        </div>
+    </div>
+</div>
+EOT;
+
+
+
+    echo "<h2>Thank you for Registering<br/>Our associates will soon reach you</h2>";
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $headers .="From: info@thesurge.in\r\n"; 
+    $subject = "The Surge Team";
+    $to_address = $mail;
+    $mailsend=mail("$to_address","$subject","$message" ,"$headers");
     
 
   }

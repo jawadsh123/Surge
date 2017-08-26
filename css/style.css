@@ -324,6 +324,10 @@ p {
   }
 }
 
+.tag-line{
+  letter-spacing: 0.5em;
+}
+
 /*-------------------------------------------------------*/
 /* Navigation Onepage
 /*-------------------------------------------------------*/
@@ -1817,6 +1821,16 @@ p {
   max-height: 250px;
   filter: grayscale(1);
 }
+
+.big-college{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.big-college img{
+  width: 50%;
+}
+
 /* Contact
 -------------------------------------------------------*/
 .contact-row {
@@ -3434,13 +3448,22 @@ label {
 }
 
 .footer-link-big{
-  text-transform: none;
   font-size: 0.7em;
 }
 
 .footer-link-small{
-  text-transform: none;
   font-size: 0.7em;
+}
+
+@media (max-width: 768px){
+  .big-college{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .big-college img{
+    width: 100%;
+  }
 }
 
 @media (min-width: 1000px) {

@@ -154,10 +154,10 @@
                     <p>Android application development is a key skill for those who wish to make a mark in the ever growing smartphone industry. Whether you're a beginner who wishes to take his first steps in mobile app development, or a professional seeking for expert guidance on building polished applications, this intensive programme will help you build a strong foundation in Android application designing and development, helping you become future ready. Topics include:</p>
                     <ul>
                         <li>Android Basics</li>
-                        <li>Android Layouts & Views</li>
+                        <li>Android Layouts &amp; Views</li>
                         <li>Activities and Fragments </li>
                         <li>Advance Android Views</li>
-                        <li>Location Tracking & Google Maps</li>
+                        <li>Location Tracking &amp; Google Maps</li>
                         <li>And much more!</li>
                     </ul>
                 </div>

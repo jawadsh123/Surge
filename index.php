@@ -117,11 +117,11 @@
                     <a href="#colleges">Colleges</a>
                   </li>
                   <li>
-                    <a href="./connect/">Connect</a>
-                  </li>
-                  <li>
                     <a href="#testimonial">Testimonials</a>
                   </li>                         
+                  <li>
+                    <a href="./connect/" target="_blank">Surge Connect</a>
+                  </li>
                   <li>
                     <a href="#contact">Contact</a>
                   </li>
@@ -212,6 +212,7 @@ We believe world need innovators more than anything else and at Surge, our missi
 Surge is the new way of learning, we are revolutionizing the traditional and old-school method of classrooms into more practical and Industrial based knowledge transfer.
                 </p>
                 <p class="text-center"><strong>Industrial Training | Technology | Internship | Recruitment</strong></p>
+                <h5 class="text-center tag-line mt-30">Dream Big. Change Things.</h5>
             </div>
             </a>
             
@@ -304,13 +305,13 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
           <div class="col-sm-4 associate-logo">
             <img src="img/fablab.png" alt="FabLab logo">
           </div>
-          <div class="col-sm-4 col-sm-offset-4 associate-logo">
+          <div class="col-sm-4 associate-logo">
             <img src="img/riidl.png" alt="riidl logo">
           </div>
-          <div class="col-sm-4 col-sm-offset-4 associate-logo">
+          <div class="col-sm-4 associate-logo">
             <img src="img/accenture.png" alt="accenture logo">
           </div>
-          <div class="col-sm-4 col-sm-offset-4 associate-logo">
+          <div class="col-sm-4 associate-logo">
             <img src="img/tcs.png" alt="tcs logo">
           </div>
           <div class="col-sm-4 col-sm-offset-4 associate-logo">
@@ -331,31 +332,63 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
           </div>
         </div>
 
-        <div class="row college-row">
-          <div class="col-sm-3 associate-logo associate-college-logo">
-            <img src="img/college/dbit.png" alt="Facebook logo">
-          </div>
-          <div class="col-sm-3 associate-logo associate-college-logo">
-            <img src="img/college/kkjsce.png" alt="riidl logo">
-          </div>
-          <div class="col-sm-3 associate-logo associate-college-logo">
-            <img src="img/college/kc.png" alt="FabLab logo">
-          </div>
-          <div class="col-sm-3 associate-logo associate-college-logo">
-            <img src="img/college/vjti.jpg" alt="riidl logo">
-          </div>
-        </div>
         <div class="row">
-          <div class="col-sm-3 col-sm-offset-1 associate-logo associate-college-logo">
-            <img src="img/college/pvpcoe.jpg" alt="riidl logo">
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/vesit.png" alt="">
           </div>
-          <div class="col-sm-4 associate-logo associate-college-logo">
-            <img src="img/college/vesit.png" alt="riidl logo">
+          <div class="col-sm-6 col-xs-6 big-college media-logo">
+            <img src="img/college/hiray.png" alt="">
           </div>
-          <div class="col-sm-3 associate-logo associate-college-logo">
-            <img src="img/college/fta.png" alt="Microsoft logo">
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/vjti.png" alt="">
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/kc.png" alt="">
+          </div>
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/kkjsce.png" alt="">
+          </div>
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/mhss.png" alt="">
+          </div>
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/pune.png" alt="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/pvpcoe.png" alt="">
+          </div>
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/sandanchor.png" alt="">
+          </div>
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/tsec.png" alt="">
+          </div>
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/umit.png" alt="">
+          </div>
+        </div>
+
+        <div class="row second-row">
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/bimtech.png" alt="">
+          </div>
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/dbit.png" alt="">
+          </div>
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/fta.png" alt="">
+          </div>
+          <div class="col-sm-3 col-xs-6 media-logo">
+            <img src="img/college/vit.png" alt="">
+          </div>
+        </div>
+
 
       </div>      
     </section> <!-- end Colleges -->
@@ -735,21 +768,22 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
           <div class="col-sm-4 media-logo">
             <img src="img/media/your-story.png" alt="">
           </div>
-		  <div class="col-sm-4 media-logo">
+		      <div class="col-sm-4 media-logo">
             <img src="img/media/erudio.png" alt="">
           </div>
         </div>
-		<div class="row second-row">
+        <div class="row">
           <div class="col-sm-4 media-logo">
             <img src="img/media/vccircle.png" alt="">
           </div>
           <div class="col-sm-4 media-logo">
             <img src="img/media/edtech.png" alt="">
           </div>
-	        <div class="col-sm-4 media-logo">
+          <div class="col-sm-4 media-logo">
             <img src="img/media/tech-aloo.png" alt="">
           </div>
-
+        </div>
+        <div class="row">
           <div class="col-sm-4 media-logo">
             <img src="img/media/techinasia.png" alt="">
           </div>
@@ -759,6 +793,8 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
           <div class="col-sm-4 media-logo">
             <img src="img/media/techcircle.png" alt="">
           </div>
+        </div>
+		    <div class="row second-row">
           <div class="col-sm-4 media-logo">
             <img src="img/media/letsventure.png" alt="">
           </div>
@@ -905,7 +941,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
           <div class="col-md-4">
             <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
               <h2>
-                <a href="./career.html" class="color-white footer-link-big">Make a Career with Us</a>
+                <a href="./career.html" class="color-white footer-link-big">Join Us</a>
               </h2>
             </div>            
           </div>
@@ -917,10 +953,10 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
                 <a href="#home" class="color-white">Surge</a>
               </h2>
               <h2>
-                <a href="./career.html" class="color-white footer-link-small">Make a Career with Us</a>
+                <a href="./career.html" class="color-white footer-link-small">Join Us</a>
               </h2>
               <h2>
-                <a href="#home" class="color-white footer-link-small">Blogs by Surge</a>
+                <a href="#home" class="color-white footer-link-small">Blogs</a>
               </h2>
             </div>
 
@@ -939,7 +975,7 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
           <div class="col-md-4">
             <div class="footer-logo local-scroll mb-30 wow zoomIn" data-wow-duration="1s" data-wow-delay="0.2s">
               <h2>
-                <a href="#home" class="color-white footer-link-big">Blogs by Surge</a>
+                <a href="#home" class="color-white footer-link-big">Blogs</a>
               </h2>
             </div>            
           </div>

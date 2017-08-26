@@ -105,16 +105,13 @@
                 <ul class="nav navbar-nav local-scroll text-center">
 
                   <li>
-                    <a href="../../../index.php">Home</a>
+                    <a href="../../../index.php">Surge Home</a>
                   </li>
                   <li>
-                      <a href="../../../index.php#course">Courses</a>
+                      <a href="#details">Register</a>
                   </li>
                   <li>
-                      <a href="../../index.php#testimonial">Testimonials</a>
-                  </li>
-                  <li>
-                      <a href="../../index.php#contact">Contact</a>
+                      <a href="#projects">Projects</a>
                   </li>
                 </ul>
               </div>
@@ -135,31 +132,30 @@
       <div class="container container-full-height">
         <div class="hero-holder">
           <div class="hero-message hero-left">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1 class="center-align main-title">Data and Machine Learning</h1>
+            <div class="row main-row">
+                <div class="col-md-6 hero-col">
+                    <h1>Data and Machine Learning</h1>
                     <br>
-                    <h2 class="color-white center-align">Let's Build a smart Future</h2>
+                    <h2 class="color-white">Let's Build a smart Future</h2>
+                    <div class="partners hidden-xs">
+                        <h2 class="">Partners:</h2>
+                        <img src="../../img/fablab.png" alt="Fab Lab">
+                        <img src="../../img/riidl.png" alt="Riidl">
+                    </div>
+                    <div class="buttons-holder mt-30">
+                      <a href="#details" class="btn btn-lg btn-color">Apply Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 hidden-sm hidden-xs hero-text hero-col">
                     
-                </div>
-                <div class="col-md-12 hidden-sm hidden-xs hero-text">
-                    <p class="center-align">Have you ever wondered how Facebook gives you an option to tag your friend? or how google automatically detects spam mails and reduces your burden? or how does the google self driving car works? NetFlix and Youtube recommends the movie and video you’ll  like We'll help you figure out all these answers and find solutions to many such complex problems right from the field of Stock Market to Brain Science.
-This course is about building machine intelligent software with architectures built on some of the most complex machine learning algorithms. You will also learn to build complete end to end web application running on these deep learning algorithms which can be displayed or put to practical use.
-At the end of the workshop you would have completed 4 big projects in Data and Analytics and will have a chance to grab research opportunities / internships in some of the big corporate or Research Institutes in India and abroad.
+                    <p>Have you ever wondered how Facebook gives you an option to tag your friend? or how google automatically detects spam mails and reduces your burden? or how does the google self driving car works? NetFlix and Youtube recommends the movie and video you’ll  like We'll help you figure out all these answers and find solutions to many such complex problems right from the field of Stock Market to Brain Science.</p>
+<p>This course is about building machine intelligent software with architectures built on some of the most complex machine learning algorithms. You will also learn to build complete end to end web application running on these deep learning algorithms which can be displayed or put to practical use.
+At the end of the workshop you would have completed 4 big projects in Data and Analytics and will have a chance to grab research opportunities / internships in some of the big corporate or Research Institutes in India and abroad.</p>
+<p>
 If you want to sit for your placements, or go for your MS, this is the must skill that should have on your CV/profile.
-This is the most in demand career choice with salary ranging upto Rs. 22 Lac.
-</p>
+This is the most in demand career choice with salary ranging upto Rs. 22 Lac.</p>
                 </div>
-                <div class="col-md-12">
-                  <div class="partners hidden-xs col-md-6">
-                      <h2 class="">Partners:</h2>
-                      <img src="../../img/fablab.png" alt="Fab Lab">
-                      <img src="../../img/riidl.png" alt="Riidl">
-                  </div>
-                  <div class="buttons-holder mt-30 col-md-6">
-                    <a href="#details" class="btn btn-lg btn-color apply-btn">Apply Now</a>
-                  </div>
-                </div>
+            </div>
             </div>
             <div class="local-scroll">
               <a href="#details" class="scroll-down">

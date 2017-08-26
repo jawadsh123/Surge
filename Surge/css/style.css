@@ -1621,7 +1621,14 @@ p {
 
 /* Projects
 -------------------------------------------------------*/
+.scroll-container{
+  overflow: auto;
+  white-space: nowrap;
+}
+
 .project-col {
+  display: inline-block;
+  white-space: normal;
   padding: 0 10px;
   margin-bottom: 20px;
 }

@@ -117,7 +117,7 @@
                     <a href="#colleges">Colleges</a>
                   </li>
                   <li>
-                    <a href="#connect">Connect</a>
+                    <a href="./connect/">Connect</a>
                   </li>
                   <li>
                     <a href="#testimonial">Testimonials</a>

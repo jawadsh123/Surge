@@ -307,6 +307,15 @@ Surge is the new way of learning, we are revolutionizing the traditional and old
           <div class="col-sm-4 col-sm-offset-4 associate-logo">
             <img src="img/riidl.png" alt="riidl logo">
           </div>
+          <div class="col-sm-4 col-sm-offset-4 associate-logo">
+            <img src="img/accenture.png" alt="accenture logo">
+          </div>
+          <div class="col-sm-4 col-sm-offset-4 associate-logo">
+            <img src="img/tcs.png" alt="tcs logo">
+          </div>
+          <div class="col-sm-4 col-sm-offset-4 associate-logo">
+            <img src="img/reliance.png" alt="reliance logo">
+          </div>
         </div>
 
       </div>      

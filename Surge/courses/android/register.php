@@ -204,7 +204,7 @@ if( $_POST ) {
     <div style="text-align:left">
         <br>
     </div>
-    <div style="text-align:left">The course will start on $date every weekends for 4-5 hours, lectures will be held at <b><a href="https://goo.gl/maps/6choJpp97Mk" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://goo.gl/maps/6choJpp97Mk&amp;source=gmail&amp;ust=1503580171751000&amp;usg=AFQjCNHhM7gKsMbkhtIJYb5cHwtScZYs-Q">RIIDL</a></b></div>
+    <div style="text-align:left">The course will start soon. Lectures will be conducted every weekends for 4-5 hours, at <b><a href="https://goo.gl/maps/6choJpp97Mk" target="_blank" data-saferedirecturl="https://www.google.com/url?q=https://goo.gl/maps/6choJpp97Mk&amp;source=gmail&amp;ust=1503580171751000&amp;usg=AFQjCNHhM7gKsMbkhtIJYb5cHwtScZYs-Q">RIIDL</a></b></div>
     <div>
         <br>
     </div>

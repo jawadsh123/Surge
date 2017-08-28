@@ -212,7 +212,7 @@ We believe world need innovators more than anything else and at Surge, our missi
 Surge is the new way of learning, we are revolutionizing the traditional and old-school method of classrooms into more practical and Industrial based knowledge transfer.
                 </p>
                 <p class="text-center"><strong>Industrial Training | Technology | Internship | Recruitment</strong></p>
-                <h5 class="text-center tag-line mt-30">Dream Big. Change Things.</h5>
+                <h5 class="text-center tag-line mt-30">Change Things. Dream Big.</h5>
             </div>
             </a>
             

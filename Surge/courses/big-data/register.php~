@@ -185,7 +185,7 @@ if( $_POST ) {
   if(mysqli_query($con, $query)){
 
     $course_name = "Data and Analytics Course";
-    $date = "9/09/17";
+    $date = "12/2/17";
 
     
     $message = <<<EOT

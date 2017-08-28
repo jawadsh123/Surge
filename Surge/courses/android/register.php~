@@ -6,7 +6,7 @@
 
 <head>
 
-  <title>Surge | Big Data and Machine Learning</title>
+  <title>Surge | Android</title>
 
 
 
@@ -161,7 +161,6 @@ if( $_POST ) {
   
 
 
-
   $name = mysqli_real_escape_string($con, $name);
 
   $mail = mysqli_real_escape_string($con, $mail);
@@ -178,14 +177,16 @@ if( $_POST ) {
 
 
 
-  $query = "INSERT INTO `BigData`(`Name`, `Email`, `Contact`, `College` , `Branch` , `Year`, `Reference`, `Date_Time`) VALUES ('$name','$mail','$contact','$college','$branch','$year', '$reference', now())";
+  $query = "INSERT INTO `Android`(`Name`, `Email`, `Contact`, `College` , `Branch` , `Year`, `Reference`, `Date_Time`) VALUES ('$name','$mail','$contact','$college','$branch','$year', '$reference', now())";
 
 
 
   if(mysqli_query($con, $query)){
 
-    $course_name = "Data and Analytics Course";
-    $date = "9/09/17";
+
+
+    $course_name = "Android Course";
+    $date = "12/2/17";
 
     
     $message = <<<EOT
@@ -240,7 +241,6 @@ EOT;
     $subject = "The Surge Team";
     $to_address = $mail;
     $mailsend=mail("$to_address","$subject","$message" ,"$headers");
-
     
 
   }
